@@ -1,0 +1,21 @@
+
+table , th , td {
+
+	border-collapse: collapse;
+	border: 1px solid grey;
+	text-align: center;
+}
+
+th {
+	border-collapse: collapse;
+	background: red;
+	color: white;
+	
+}
+
+.pati {
+	border-collapse: collapse;
+	background: red;
+	color: white;
+	
+}
