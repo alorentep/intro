@@ -1,0 +1,20 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	}
+	
+#contenedor {
+	width: 300px;
+	}
+	
+.capsa {
+	border: solid 1px black;
+	width: 150px;
+	height: 150px;
+	}
+
+	
+#caja1 {
+	float: rigth;
+	height: 300px;
+	}
