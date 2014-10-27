@@ -1,0 +1,42 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	}
+	
+#content {
+	width: 50%;
+	height: 200px;
+	}
+
+#dos {
+	display: none;
+	}
+
+#cinc {
+	visibility: hidden;
+	}
+
+.clear {
+	clear: left;
+	}
+	
+.left {
+	float: left;
+	width: 10%;
+	height: 10%;
+	background:  pink;
+	border: 1px solid black;
+	}
+
+.left:hover {
+	background: brown;
+	color: white;
+	border: 2px white;
+	}
+	
+.menu {
+	background: green;
+	color: white;
+	width: 90px;
+	float: left;
+	}
