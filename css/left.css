@@ -40,3 +40,40 @@
 	width: 90px;
 	float: left;
 	}
+
+.text {
+	width: 500px;
+	height: 300px;
+	overflow: auto;
+	margin: 5%;
+	}	
+	
+.zindex:hover {
+	z-index: 3;
+	}
+	
+.zindex {
+	width: 300px;
+	height: 250px;
+	border: 1px solid black;
+	background: #E724C4;
+	}
+
+.capsa1 {
+	position: absolute;
+	top: 165%;
+	left: 16%;
+	z-index: 2;
+	}
+	
+.capsa2 {
+	position: absolute;
+	top: 195%;
+	left: 20%;
+	}
+
+.capsa3 {
+	position: absolute;
+	top: 135%;
+	left: 6%;
+	}	
