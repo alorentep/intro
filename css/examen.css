@@ -1,5 +1,5 @@
 body {
-	background-image: urk ("img/body.gif") ;
+	background-image: url ("img/body.gif") ;
 	width: "10px";
 	height: "10px";
 	}
@@ -18,13 +18,7 @@ body {
 	}
 	
 #span {
-	background-color: green;
-	padding: 30pt; 
-	text-align: center;
-	height: 8%; 
-	left: 10%; 
-	top: 9%; 
-	width: 80%; 
+	
 	}
 	
 #video {
