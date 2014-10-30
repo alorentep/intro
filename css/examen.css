@@ -1,13 +1,5 @@
 body {
 	background-image: url("../img/body.gif");
-	}
-	
-ul{
-	float:left; 
-	width: 90%;
-	background: black;
-	color: white;
-	list-style: none;
 	}	
 	
 #wrap {
@@ -31,8 +23,13 @@ ul{
 	height: 50px;
 			}	
 	
-#nav {
-	
+#nav ul{
+	float:left; 
+	width: 90%;
+	background: black;
+	color: white;
+	font-weight: bold;
+	list-style-type :none;
 	}
 	
 #main {
@@ -43,6 +40,22 @@ ul{
 	margin-left: 300px;
 	}
 	
+span {
+	background-color: #008000; 
+	border: #00800 2px solid;
+	padding: 20px; 
+	font-family: verdana;
+	font-size: 30pt;
+	font-weight: bold;
+	position: absolute; 
+	height: 8%; 
+	left: 45%; 
+	top: 40%; 
+	width: 40%;
+	color: white;
+	}
+	
 #video {
+	margin-top: 10px;
 	text-align: center;
 	}
