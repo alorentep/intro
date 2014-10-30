@@ -1,5 +1,6 @@
 body {
-	background-image: url ("img/body.gif") ;
+	background-image: url("../img/body.gif") ;
+	background-repeat: no-repeat;
 	width: "10px";
 	height: "10px";
 	}
@@ -8,7 +9,12 @@ body {
 	
 	}
 	
-#header {
+#header img {
+	position: absolute;
+	top: 8px;
+	left: 60px;
+	font-size: 20 px;
+	color: black;
 	}
 	
 #nav {
