@@ -1,32 +1,48 @@
 body {
-	background-image: url("../img/body.gif") ;
-	background-repeat: no-repeat;
-	width: "10px";
-	height: "10px";
+	background-image: url("../img/body.gif");
 	}
+	
+ul{
+	float:left; 
+	width: 90%;
+	background: black;
+	color: white;
+	list-style: none;
+	}	
 	
 #wrap {
 	
 	}
 	
-#header img {
+#header h1 {
 	position: absolute;
 	top: 8px;
 	left: 60px;
-	font-size: 20 px;
+	font-size: 20 pt;
+	margin-left: 10px;
+	margin-bottom: 30px;
 	color: black;
 	}
 	
+#header img { 
+	margin-top: 10px;
+	margin-left: 10px;
+	width: 50px;
+	height: 50px;
+			}	
+	
 #nav {
+	
 	}
 	
 #main {
+	
 	}
 	
-#span {
-	
+#imggorila {
+	margin-left: 300px;
 	}
 	
 #video {
-	
+	text-align: center;
 	}
