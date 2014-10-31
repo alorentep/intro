@@ -1,0 +1,61 @@
+* {
+	margin:0;
+	padding:0;
+}
+
+body {
+	background: url (img/body.gif);
+}
+
+#header {
+	padding: 10px;
+}
+
+#header img {
+	width: 50px;
+	height: 50px;
+	display: inline;
+}
+
+#header h1 {
+	font-size: 20 px;
+	display: inline;
+}
+
+#nav {
+	font-weight: bold;
+	background: black;
+	height: 50px;
+	clear: left;
+}
+
+#nav ul {
+	color: white;
+}
+
+#nav li {
+	background: black;
+	float: left;
+	width: 106px;
+	padding: 13px;
+	list-style-type: none;
+}
+		
+#imggoril {
+		margin.left: 200px;
+}
+
+#imggorila span {
+	font-family: Verdana;
+	font-size: 30px;
+	background-color: green;
+	color: white;
+	font-weight: bold;
+	padding: 5px;
+	margin-top: 150px;
+}
+	
+#video {
+	padding: 10px;
+	text-align: center;
+	}	
