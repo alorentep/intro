@@ -3,18 +3,15 @@
 <html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
 
 <head>
-	<title>FLOTANT</title>
-	<link rel="stylesheet" type="text/css" href="css/cajas.css" title="style">
+	<title>sense títol</title>
 	<meta http-equiv="content-type" content="text/html;charset=utf-8" />
 	<meta name="generator" content="Geany 1.22" />
 </head>
 
 <body>
-	<div id="contenedor">
-		<div id="caja1" class="capsa"><p>Caja 1</p></div>
-		<div id="caja2" class="capsa"><p>Caja 2</p></div>
-		<div id="caja3" class="capsa"><p>Caja 3</p></div>
-	</div>	
+	<?php
+	echo "Hello World";
+	?>
 </body>
 
 </html>
