@@ -10,30 +10,22 @@
 
 <body>
 	<?php
-		$firstname=$_POST['firstname'];
-		$lastname=$_POST['lastname'];
-		$email=$_POST['email'];
+		$email=$_POST['Email'];
 	?>
 		
-	<h1>Thanks for submitting the form.</h1>
-	<p>First name: <?php echo $firstname;?></p>
-	<p>Last name: <?php echo $lastname;?></p>
-	<p>Email:<?php echo $email;?></p> 
-
-	<?php
-		$subject=$_POST ['subject'];
-		$msg=$_POST ['msg'];
+	<h1>Esteim molt trists perque ens deixes</h1>
+	<p>Torna quan vulguis <?php echo $email;?></p>
 		
+	<?php	
 	$dbc = mysqli_connect('172.16.1.92', 'alorentep', 'alfonso', 'elvis_store')
 	or die('Error connecting to MySQL server.');
-	$query = "INSERT INTO email_list (firstname, lastname, email) " .
-	"VALUES ('$firstname', '$lastname', " . "'$email')";
-	$result = mysqli_query($dbc, $query);
-	echo "$query <br>";
+	$query = "DELETE from email_list WHERE mail = '$email' ";
+	echo "____".$query."<br/>";
+	$result = mysqli_query($dbc, $query)
 	or die('Error querying database.');
 	mysqli_close($dbc);
-	?>
 	
+	?>
 </body>
 
 </html>

@@ -10,30 +10,18 @@
 
 <body>
 	<?php
-		$firstname=$_POST['firstname'];
-		$lastname=$_POST['lastname'];
-		$email=$_POST['email'];
-	?>
-		
-	<h1>Thanks for submitting the form.</h1>
-	<p>First name: <?php echo $firstname;?></p>
-	<p>Last name: <?php echo $lastname;?></p>
-	<p>Email:<?php echo $email;?></p> 
-
-	<?php
 		$subject=$_POST ['subject'];
-		$msg=$_POST ['msg'];
+		$promo=$_POST ['promo'];
 		
+	if ((!empty/$subject) && (!empty/$promo)){
+		
+	echo "SUBJECT: $subject MSG: $msg<br/>";
 	$dbc = mysqli_connect('172.16.1.92', 'alorentep', 'alfonso', 'elvis_store')
 	or die('Error connecting to MySQL server.');
-	$query = "INSERT INTO email_list (firstname, lastname, email) " .
-	"VALUES ('$firstname', '$lastname', " . "'$email')";
+	$query = "SELECT first_name, last_name, email from email_list ORDER BY last_name, first_name";
 	$result = mysqli_query($dbc, $query);
-	echo "$query <br>";
-	or die('Error querying database.');
-	mysqli_close($dbc);
 	?>
-	
+	<table border="1" cellpadding="0" cellspacing="0"></table>
 </body>
 
 </html>
