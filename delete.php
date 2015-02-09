@@ -17,7 +17,7 @@
 	<p>Torna quan vulguis <?php echo $email;?></p>
 		
 	<?php	
-	$dbc = mysqli_connect('172.16.1.92', 'alorentep', 'alfonso', 'elvis_store')
+	$dbc = mysqli_connect('172.16.1.115', 'alorentep', 'alfonso', 'elvis_store')
 	or die('Error connecting to MySQL server.');
 	$query = "DELETE from email_list WHERE mail = '$email' ";
 	echo "____".$query."<br/>";
